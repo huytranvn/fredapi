@@ -251,11 +251,11 @@ class Fred:
             else:
                 val = float(val)
             realtime_start = self._parse(child.get('realtime_start'))
-            # realtime_end = self._parse(child.get('realtime_end'))
+            realtime_end = self._parse(child.get('realtime_end'))
             date = self._parse(child.get('date'))
 
             data[i] = {'realtime_start': realtime_start,
-                       # 'realtime_end': realtime_end,
+                       'realtime_end': realtime_end,
                        'date': date,
                        'value': val}
             i += 1
