@@ -8,6 +8,10 @@ for parsing and analyzing point-in-time data (i.e. historic data revisions) from
 
 `fredapi` makes use of `pandas` and returns data to you in a `pandas` `Series` or `DataFrame`
 
+## Notes
+
+- Forked to modify series API- support start & end dates.
+
 ## Installation
 
 ```sh
